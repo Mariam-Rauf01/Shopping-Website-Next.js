@@ -83,7 +83,7 @@ const Editors = () => {
         </div>
       </div>
     </div>
-  );
+  
 
 
     </div>
