@@ -8,7 +8,7 @@ export const client = createClient({
   dataset,
   apiVersion,
   useCdn: true,
-  token: process.env.SANITY_API_TOKEN, // Use environment variable for the token
+  token:"sk5TTOLSwz6f8WAgrtWWpncml0mXHMgJmPqshAIAGTue45ivj9UIy7l17FUpK7bOAcJQZnH1GiDpfqXgzdVBJ3vtB5wEa0IDmZPA3SYmlh5ldt89ukOGJNntYRnWQnOf4qWKOarkCeSRQG56qgI6kJQ3RwDHWn0Ty8Lmxr0vVucOojFP1RYb" // Use environment variable for the token
 });
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
